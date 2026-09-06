@@ -62,3 +62,16 @@ Hardware demonstration and circuit images will be added here.
 ## 👨‍💻 Author
 
 Rajneesh Yadav
+
+
+
+
+
+
+## 📷 Project Setup
+
+![ESP32 Project Setup](Project-Setup.jpeg)
+
+## 🖥️ Serial Monitor
+
+![Serial Monitor](Serial-monitor.jpeg)
