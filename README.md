@@ -63,6 +63,24 @@ Currently working:
 - ✅ Serial Monitor output
 - ✅ Real-time potentiometer readings
 
+## ⚙️ How the Project Works
+
+The potentiometer acts as an analog input device.
+
+**Potentiometer → ESP32 ADC → Value Mapping → LED Brightness**
+
+1. The potentiometer produces a variable voltage.
+2. The ESP32 reads this voltage through **GPIO 34 (ADC)**.
+3. The ESP32 ADC converts the voltage into a digital value from **0 to 4095**.
+4. The program maps this value from **0–4095 to 0–255**.
+5. The resulting value controls the LED brightness on **GPIO 23**.
+6. The potentiometer reading and LED brightness are displayed in the Serial Monitor.
+
+### Signal Flow
+
+`Potentiometer → GPIO 34 (ADC) → ESP32 → GPIO 23 → LED`
+
+Turning the potentiometer changes the ADC value, which changes the LED brightness in real time.
 Not implemented yet:
 - ⏳ Push-button control
 - ⏳ Wi-Fi/web control
