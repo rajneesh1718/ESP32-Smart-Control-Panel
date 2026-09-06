@@ -52,6 +52,21 @@ The potentiometer value and LED brightness are also displayed in the Serial Moni
 
 Hardware demonstration and circuit images will be added here.
 
+## 📌 Project Status
+
+**Status: Completed ✅**
+
+Currently working:
+- ✅ ESP32 Dev Module
+- ✅ Potentiometer analog input
+- ✅ LED brightness control
+- ✅ Serial Monitor output
+- ✅ Real-time potentiometer readings
+
+Not implemented yet:
+- ⏳ Push-button control
+- ⏳ Wi-Fi/web control
+
 ## 🔮 Future Improvements
 
 - Add push-button control
